@@ -1,0 +1,126 @@
+/* Importer une belle police */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background:#e0b2ba;
+    background-size: cover;
+}
+
+
+
+/* ----------- HEADER ----------- */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: linear-gradient(135deg, #900C3F, #ff6b6b);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    border: 3px solid white;
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* ----------- NAVIGATION ----------- */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#333;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: #ff6b6b;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: #900C3F;
+}
+
+/* ----------- CONTENU PRINCIPAL ----------- */
+#content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+/* ----------- BOÎTES ----------- */
+#content .leftbox, #content .rightbox {
+    width: 48%;
+    min-height: 250px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#content .leftbox:hover, #content .rightbox:hover {
+    transform: translateY(-5px);
+}
+
+.leftbox {
+    background: #fce3e3;
+}
+
+.rightbox {
+    background: #900C3F;
+    color: white;
+}
+
+/* ----------- RESPONSIVE DESIGN ----------- */
+@media (max-width: 768px) {
+    #content {
+        flex-direction: column;
+    }
+    
+    #content .leftbox, #content .rightbox {
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #900C3F;
+    color: white;
+    margin-top: 40px;
+}
