@@ -241,3 +241,36 @@ body div iframe {
     border-radius: 25px 25px 15px 15px;
     padding-top:10px;
 }
+#language-selector {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 2px solid #0000; /* Bordure noir */
+    border-radius: 8px; /* Coins arrondis */
+    background-color: #CCA8E9; /* Fond clair */
+    color: #333; /* Couleur du texte */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-left: 20px;
+}
+
+#language-selector:hover {
+    background-color: #492540; /* Fond bleu au survol */
+    color: white;
+}
+
+#language-selector:focus {
+    outline: none;
+    border-color: #492540; /* Bordure foncée au focus */
+}
+#m {
+    color: blue;
+}
+#y{
+    color: yellow;
+}
+#i2 {
+    color: red;
+} 
+#i{
+    color: green;
+}
