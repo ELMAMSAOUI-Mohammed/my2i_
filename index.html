@@ -1,16 +1,15 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY2I</title>
-    <link rel="icon" type="image/ico" href="LOGO.png" class="logo-cercle" sizes="32x32">
-    <link rel="stylesheet" href="accueil1.css">
+    <link rel="icon" type="image/ico" href="LOGO.ico" class="logo-cercle" sizes="32x32">
+    <link rel="stylesheet" href="index.css">
 </head>
 <header>
-    <img src="LOGO.png" >
-    <h1> Centre My2I Vous souhaite la bienvenue</h1>
+    <img src="LOGO.ico" >
+    <h1 id="title"> Centre <b id="m">M</b><b id="y">y</b><b id="i2">2</b><b id="i">i</b> Vous souhaite la bienvenue</h1>
     <select id="language-selector">
         <option value="fr">Français</option>
         <option value="en">English</option>
@@ -20,22 +19,22 @@
 <body>
     <nav>
         <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="apropos.html">À propos</a></li>
-            <li><a href="formatiom.html">Nos formations</a></li>
-            <li><a href="prof.html">Nos Professeurs</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html" id="menu_home">Accueil</a></li>
+            <li><a href="apropos.html" id="menu_about">À propos</a></li>
+            <li><a href="formatiom.html" id="menu_courses">Nos formations</a></li>
+            <li><a href="prof.html" id="menu_teachers">Nos Professeurs</a></li>
+            <li><a href="contact.html" id="menu_contact">Contact</a></li>
         </ul>
     </nav>
     <div id="content">
         <div class="leftbox">
-            <p>My2I center vous offre une formation de qualité adaptée à votre emploi du temps.</p>
-            <p>Que vous souhaitiez renforcer vos compétences de communication, developper votre soft skills, préparer un examen ou apprendre une nouvelle discipline, nous mettons à votre disposition des enseignants qualifiés et un accompagnement personnalisé.</p> 
-            <p>Avec des programmes flexibles et une approche pratique, nous vous aidons à atteindre vos objectifs, quel que soit votre niveau.</p>
-            <p>Rejoignez-nous et donnez un nouvel élan à votre avenir !</p>
+            <p id="text1">My2I center vous offre une formation de qualité adaptée à votre emploi du temps.</p>
+            <p id="text2">Que vous souhaitiez renforcer vos compétences de communication, developper votre soft skills, préparer un examen ou apprendre une nouvelle discipline, nous mettons à votre disposition des enseignants qualifiés et un accompagnement personnalisé.</p> 
+            <p id="text3">Avec des programmes flexibles et une approche pratique, nous vous aidons à atteindre vos objectifs, quel que soit votre niveau.</p>
+            <p id="text16">Rejoignez-nous et donnez un nouvel élan à votre avenir !</p>
         </div>
         <div class="rightbox">
-            <h4>Dans cette vidéo, vous allez en apprendre davantage sur nous.</h4>
+            <h4 id="text4">Dans cette vidéo, vous allez en apprendre davantage sur nous.</h4>
             <P><iframe width="480" height="280" 
                 src="https://www.youtube.com/embed/p75U5o3lSSI?autoplay=1&mute=0&enablejsapi=1" 
                 title="YouTube video player" 
@@ -52,8 +51,8 @@
     <section class="article-section">
         <div class="article">
             <div class="text">
-                <h2>Qui sommes-nous ?</h2>
-                <p>MY2I est un centre de formation dédié aux étudiants et aux professionnels cherchant à développer leurs compétences. Avec une approche flexible et des formateurs expérimentés, nous offrons des cours adaptés à chaque besoin.</p>
+                <h2 id="text5">Qui sommes-nous ?</h2>
+                <p id="text6">MY2I est un centre de formation dédié aux étudiants et aux professionnels cherchant à développer leurs compétences. Avec une approche flexible et des formateurs expérimentés, nous offrons des cours adaptés à chaque besoin.</p>
             </div>
             <div class="image">
                 <img src="https://plus.unsplash.com/premium_photo-1663075913794-6c742d7d6c74?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Formation en salle">
@@ -64,14 +63,14 @@
                 <img src="https://plus.unsplash.com/premium_photo-1663088595346-3fd01c0326bb?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Élèves en formation">
             </div>
             <div class="text">
-                <h2>Des formations pour tous</h2>
+                <h2 id="text7">Des formations pour tous</h2>
                 <p>Que vous soyez étudiant, professionnel ou en reconversion, MY2I propose des formations adaptées à votre rythme et vos objectifs.</p>
             </div>
         </div>
         <div class="article">
             <div class="text">
-                <h2>Un accompagnement personnalisé</h2>
-                <p>Nos formateurs sont là pour vous guider tout au long de votre parcours, en vous proposant un suivi individualisé et des conseils pratiques.</p>
+                <h2 id="text8">Un accompagnement personnalisé</h2>
+                <p id="text9">Nos formateurs sont là pour vous guider tout au long de votre parcours, en vous proposant un suivi individualisé et des conseils pratiques.</p>
             </div>
             <div class="image">
                 <img src="https://plus.unsplash.com/premium_photo-1663089242554-eca1fa4e707e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Coaching personnalisé">
@@ -80,13 +79,13 @@
     </section>
 
     <section class="mediatheque-section">
-        <h2>Activités à la Médiathèque
+        <h2 id="text15">Activités à la Médiathèque
 
         </h2>
         <div class="article">
             <div class="text">
-                <h3>Séances de Robotique</h3>
-                <p>Nos séances de robotique permettent aux élèves de découvrir la programmation et la mécanique en manipulant des robots interactifs.</p>
+                <h3 id="text10">Séances de Robotique</h3>
+                <p id="text11">Nos séances de robotique permettent aux élèves de découvrir la programmation et la mécanique en manipulant des robots interactifs.</p>
             </div>
             <div class="image">
                 <img src="https://images.unsplash.com/photo-1631378297854-185cff6b0986?q=80&w=1973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Atelier de robotique">
@@ -97,14 +96,14 @@
                 <img src="https://plus.unsplash.com/premium_photo-1668383207188-f5474588d674?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Séance de coaching">
             </div>
             <div class="text">
-                <h3>Séances de Coaching</h3>
+                <h3 id="text12">Séances de Coaching</h3>
                 <p>Nos coachs accompagnent chaque élève pour maximiser son potentiel et atteindre ses objectifs académiques et professionnels.</p>
             </div>
         </div>
         <div class="article">
             <div class="text">
-                <h3>Les Progrès de Nos Élèves</h3>
-                <p>Découvrez les témoignages inspirants de nos étudiants et suivez leur évolution au sein de MY2I.</p>
+                <h3 id="text13">Les Progrès de Nos Élèves</h3>
+                <p id="text14">Découvrez les témoignages inspirants de nos étudiants et suivez leur évolution au sein de MY2I.</p>
             </div>
             <div class="image">
                 <img src="https://plus.unsplash.com/premium_photo-1661891527694-4432f07ced88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Progrès des élèves">
@@ -129,17 +128,28 @@
     <script>
         const translations = {
             fr: {
-                title: "MY2I Vous souhaite la bienvenue",
+                title: "Centre My2I Vous souhaite la bienvenue",
                 menu_home: "Accueil",
                 menu_about: "À propos",
                 menu_courses: "Nos formations",
                 menu_teachers: "Nos Professeurs",
                 menu_contact: "Contact",
-                text1: "Notre école de cours du soir offre une formation de qualité adaptée à votre emploi du temps.",
-                text2: "Que vous souhaitiez renforcer vos compétences, préparer un examen ou apprendre une nouvelle discipline, nous mettons à votre disposition des enseignants qualifiés et un accompagnement personnalisé.",
+                text1: "My2I center vous offre une formation de qualité adaptée à votre emploi du temps.",
+                text2: "Que vous souhaitiez renforcer vos compétences de communication, développer vos soft skills, préparer un examen ou apprendre une nouvelle discipline, nous mettons à votre disposition des enseignants qualifiés et un accompagnement personnalisé.",
                 text3: "Avec des programmes flexibles et une approche pratique, nous vous aidons à atteindre vos objectifs, quel que soit votre niveau.",
-                text4: "Rejoignez-nous et donnez un nouvel élan à votre avenir !",
-                video_title: "Dans cette vidéo, vous allez en apprendre davantage sur nous.",
+                text4: "Dans cette vidéo, vous allez en apprendre davantage sur nous.",
+                text5: "Qui sommes-nous ?",
+                text6: "MY2I est un centre de formation dédié aux étudiants et aux professionnels cherchant à développer leurs compétences. Avec une approche flexible et des formateurs expérimentés, nous offrons des cours adaptés à chaque besoin.",
+                text7: "Des formations pour tous",
+                text8: "Un accompagnement personnalisé",
+                text9: "Nos formateurs sont là pour vous guider tout au long de votre parcours, en vous proposant un suivi individualisé et des conseils pratiques.",
+                text10: "Séances de Robotique",
+                text11: "Nos séances de robotique permettent aux élèves de découvrir la programmation et la mécanique en manipulant des robots interactifs.",
+                text12: "Séances de Coaching",
+                text13: "Les Progrès de Nos Élèves",
+                text14: "Découvrez les témoignages inspirants de nos étudiants et suivez leur évolution au sein de MY2I.",
+                text15: "Activités à la Médiathèque",
+                text16: "Rejoignez-nous et donnez un nouvel élan à votre avenir !",
                 dir: "ltr"
             },
             en: {
@@ -149,12 +159,24 @@
                 menu_courses: "Our Courses",
                 menu_teachers: "Our Teachers",
                 menu_contact: "Contact",
-                text1: "Our evening school offers quality training tailored to your schedule.",
-                text2: "Whether you want to improve your skills, prepare for an exam, or learn a new subject, we provide qualified teachers and personalized support.",
+                text1: "My2I center offers quality training tailored to your schedule.",
+                text2: "Whether you want to improve your communication skills, develop your soft skills, prepare for an exam, or learn a new subject, we provide qualified teachers and personalized support.",
                 text3: "With flexible programs and a practical approach, we help you achieve your goals, regardless of your level.",
-                text4: "Join us and take your future to the next level!",
-                video_title: "In this video, you will learn more about us.",
-                dir: "ltr"
+                text4: "In this video, you will learn more about us.",
+                text5: "Who are we?",
+                text6: "MY2I is a training center dedicated to students and professionals looking to develop their skills. With a flexible approach and experienced trainers, we offer courses tailored to every need.",
+                text7: "Training for Everyone",
+                text8: "Personalized Support",
+                text9: "Our trainers are here to guide you throughout your journey, offering individualized follow-ups and practical advice.",
+                text10: "Robotics Sessions",
+                text11: "Our robotics sessions allow students to discover programming and mechanics by manipulating interactive robots.",
+                text12: "Coaching Sessions",
+                text13: "Our Students' Progress",
+                text14: "Discover inspiring testimonials from our students and follow their progress at MY2I.",
+                text14: "Discover inspiring testimonials from our students and follow their progress at MY2I.",
+                text15: "Activities at the Media Library",
+                text16: "Join us and give your future a new boost!",
+                dir: "ltr",
             },
             ar: {
                 title: "MY2I ترحب بكم",
@@ -163,32 +185,57 @@
                 menu_courses: "دوراتنا",
                 menu_teachers: "مدرسونا",
                 menu_contact: "اتصل بنا",
-                text1: "تقدم مدرستنا المسائية تدريبًا عالي الجودة يتناسب مع جدولك الزمني.",
-                text2: "سواء كنت ترغب في تحسين مهاراتك، التحضير لامتحان، أو تعلم موضوع جديد، نحن نوفر لك مدرسين مؤهلين ودعمًا شخصيًا.",
-                text3: "مع برامج مرنة ونهج عملي، نساعدك على تحقيق أهدافك بغض النظر عن مستواك.",
-                text4: "انضم إلينا وامنح مستقبلك دفعة جديدة!",
-                video_title: "في هذا الفيديو، ستتعرف علينا أكثر.",
-                dir: "rtl"
+                text1: "يقدم مركز MY2I تدريبًا عالي الجودة يتناسب مع جدولك الزمني.",
+                text2: "سواء كنت ترغب في تحسين مهاراتك في التواصل، أو تطوير مهاراتك الشخصية، أو التحضير لامتحان، أو تعلم موضوع جديد، فإننا نوفر لك معلمين مؤهلين ودعمًا شخصيًا.",
+                text3: "من خلال برامج مرنة ونهج عملي، نساعدك على تحقيق أهدافك، بغض النظر عن مستواك.",
+                text4: "في هذا الفيديو، ستتعرف علينا أكثر.",
+                text5: "من نحن؟",
+                text6: "MY2I هو مركز تدريب مخصص للطلاب والمهنيين الذين يسعون إلى تطوير مهاراتهم. مع نهج مرن ومدربين ذوي خبرة، نقدم دورات تناسب كل احتياج.",
+                text7: "تدريب للجميع",
+                text8: "دعم شخصي",
+                text9: "مدربونا هنا لتوجيهك طوال رحلتك، ويقدمون متابعة فردية ونصائح عملية.",
+                text10: "جلسات الروبوتات",
+                text11: "تتيح جلسات الروبوتات لطلابنا اكتشاف البرمجة والميكانيكا من خلال التفاعل مع الروبوتات الذكية.",
+                text12: "جلسات التدريب",
+                text13: "تطور طلابنا",
+                text14: "اكتشف قصص نجاح طلابنا الملهمة وتابع تطورهم داخل MY2I.",
+                text15: "الأنشطة في المكتبة الرقمية",
+                text16: "انضم إلينا وامنح مستقبلك دفعة جديدة!",
+                dir: "rtl",
             }
         };
     
+        // Fonction de changement de langue
         document.getElementById('language-selector').addEventListener('change', function () {
             const lang = this.value;
             document.documentElement.lang = lang;
             document.body.dir = translations[lang].dir;
     
+            // Mise à jour du texte
             document.getElementById('title').textContent = translations[lang].title;
-            document.getElementById('menu-home').textContent = translations[lang].menu_home;
-            document.getElementById('menu-about').textContent = translations[lang].menu_about;
-            document.getElementById('menu-courses').textContent = translations[lang].menu_courses;
-            document.getElementById('menu-teachers').textContent = translations[lang].menu_teachers;
-            document.getElementById('menu-contact').textContent = translations[lang].menu_contact;
+            document.getElementById('menu_home').textContent = translations[lang].menu_home;
+            document.getElementById('menu_about').textContent = translations[lang].menu_about;
+            document.getElementById('menu_courses').textContent = translations[lang].menu_courses;
+            document.getElementById('menu_teachers').textContent = translations[lang].menu_teachers;
+            document.getElementById('menu_contact').textContent = translations[lang].menu_contact;
             document.getElementById('text1').textContent = translations[lang].text1;
             document.getElementById('text2').textContent = translations[lang].text2;
             document.getElementById('text3').textContent = translations[lang].text3;
             document.getElementById('text4').textContent = translations[lang].text4;
-            document.getElementById('video-title').textContent = translations[lang].video_title;
+            document.getElementById('text5').textContent = translations[lang].text5;
+            document.getElementById('text6').textContent = translations[lang].text6;
+            document.getElementById('text7').textContent = translations[lang].text7;
+            document.getElementById('text8').textContent = translations[lang].text8;
+            document.getElementById('text9').textContent = translations[lang].text9;
+            document.getElementById('text10').textContent = translations[lang].text10;
+            document.getElementById('text11').textContent = translations[lang].text11;
+            document.getElementById('text12').textContent = translations[lang].text12;
+            document.getElementById('text13').textContent = translations[lang].text13;
+            document.getElementById('text14').textContent = translations[lang].text14;
+            document.getElementById('text13').textContent = translations[lang].text15;
+            document.getElementById('text14').textContent = translations[lang].text16;
         });
     </script>
+    
 </body>
 </html>
