@@ -3,73 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nos Formations</title>
+    <title>Découvrez nos formations</title>
     <link rel="stylesheet" href="formation.css">
 </head>
 <body>
     <header>
-        <h1>Nos Formations</h1>
+        <img src="logo1.ico" >
+        <h1 id="title">Découvrez nos formations</h1>
+        <select id="language-selector">
+            <option value="fr">Français</option>
+            <option value="en">English</option>
+            <option value="ar">العربية</option>
+        </select>
     </header>
 
-    <section class="intro">
-        <p>Nos formations sont conçues pour vous aider à développer vos compétences et à atteindre vos objectifs professionnels. Que vous soyez débutant ou avancé, nos cours du soir vous offrent la flexibilité nécessaire pour apprendre tout en poursuivant vos activités quotidiennes.</p>
-    </section>
 
-    <section class="formations">
-        <h2>Découvrez nos formations</h2>
-        <ul>
-            <li>
-                <img src="formation1.jpg" alt="Formation 1">
-                <h3>Développement Web</h3>
-                <p>Apprenez à créer des sites modernes et dynamiques avec HTML, CSS et JavaScript.</p>
-            </li>
-            <li>
-                <img src="formation2.jpg" alt="Formation 2">
-                <h3>Marketing Digital</h3>
-                <p>Maîtrisez les stratégies de marketing en ligne pour booster votre activité.</p>
-            </li>
-            <li>
-                <img src="formation3.jpg" alt="Formation 3">
-                <h3>Langues étrangères</h3>
-                <p>Anglais, espagnol, allemand… développez vos compétences linguistiques.</p>
-            </li>
-            <li>
-                <img src="formation4.jpg" alt="Formation 4">
-                <h3>Graphisme et Design</h3>
-                <p>Créez des visuels professionnels avec Photoshop et Illustrator.</p>
-            </li>
-            <li>
-                <img src="formation5.jpg" alt="Formation 5">
-                <h3>Gestion de Projet</h3>
-                <p>Développez vos compétences en gestion et planification de projets.</p>
-            </li>
-            <li>
-                <img src="formation6.jpg" alt="Formation 6">
-                <h3>Comptabilité et Finance</h3>
-                <p>Apprenez les bases de la comptabilité et de la gestion financière.</p>
-            </li>
-            <li>
-                <img src="formation7.jpg" alt="Formation 7">
-                <h3>Développement Personnel</h3>
-                <p>Boostez votre confiance et votre efficacité au travail.</p>
-            </li>
-            <li>
-                <img src="formation8.jpg" alt="Formation 8">
-                <h3>Intelligence Artificielle</h3>
-                <p>Découvrez les bases de l’IA et du Machine Learning.</p>
-            </li>
-            <li>
-                <img src="formation9.jpg" alt="Formation 9">
-                <h3>Photographie et Vidéo</h3>
-                <p>Apprenez à capturer et retoucher des images comme un pro.</p>
-            </li>
-            <li>
-                <img src="formation10.jpg" alt="Formation 10">
-                <h3>Programmation Python</h3>
-                <p>Initiez-vous à Python, un langage clé en data science et développement.</p>
-            </li>
-        </ul>
+    <section class="formations-container">
+        <div class="formations-grid">
+            <div class="formation">
+                <img src="https://cdn.pixabay.com/photo/2013/07/13/14/15/france-162295_1280.png" alt="Francais">
+                <h3>Français</h3>
+                <p>Améliorez votre maîtrise de la langue française à l’écrit et à l’oral.</p>
+            </div>
+            <div class="formation">
+                <img src="https://cdn.pixabay.com/photo/2013/07/13/12/51/flag-160483_1280.png" alt="Anglais">
+                <h3>Anglais</h3>
+                <p>Développez vos compétences en anglais pour un usage professionnel ou personnel.</p>
+            </div>
+            <div class="formation">
+                <img src="https://cdn.pixabay.com/photo/2013/07/13/14/15/italy-162326_1280.png" alt="Italien">
+                <h3>Italien</h3>
+                <p>Apprenez l’italien et découvrez sa richesse culturelle.</p>
+            </div>
+            <div class="formation">
+                <img src="https://cdn.pixabay.com/photo/2016/10/30/17/39/germany-flag-1783774_1280.png" alt="Allemand">
+                <h3>Allemand</h3>
+                <p>Renforcez vos bases en allemand et améliorez votre expression orale et écrite.</p>
+            </div>
+            <div class="formation">
+                <img src="https://img.freepik.com/photos-gratuite/enseignant-aidant-sa-fille-etudier-interieur_23-2148572358.jpg" alt="Coaching scolaire">
+                <h3>Coaching scolaire</h3>
+                <p>Optimisez vos méthodes d’apprentissage avec un accompagnement personnalisé.</p>
+            </div>
+            <div class="formation">
+                <img src="https://img.freepik.com/photos-gratuite/disposition-installation-du-microscope-angle-eleve_23-2148785056.jpg" alt="SVT">
+                <h3>SVT</h3>
+                <p>Explorez le monde vivant et les sciences de la Terre.</p>
+            </div>
+            <div class="formation">
+                <img src="https://img.freepik.com/vecteurs-libre/cerveau-icones-sciences-humaines-illustration_23-2147504794.jpg" alt="Physique">
+                <h3>Physique</h3>
+                <p>Comprenez les lois fondamentales de la physique et leurs applications.</p>
+            </div>
+            <div class="formation">
+                <img src="https://img.freepik.com/photos-gratuite/fournitures-calculatrice-regles-colorees-mathematiques_23-2148416144.jpg" alt="Mathématiques">
+                <h3>Mathématiques</h3>
+                <p>Développez vos compétences en mathématiques avec des exercices et des explications claires.</p>
+            </div>
+            <div class="formation">
+                <img src="https://img.freepik.com/vecteurs-libre/illustration-marketing-affiliation-design-plat-dessine-main_23-2149347413.jpg" alt="Communication">
+                <h3>Communication</h3>
+                <p>Apprenez à bien vous exprimer et à convaincre votre audience.</p>
+            </div>
+            <div class="formation">
+                <img src="https://img.freepik.com/photos-gratuite/mime-feminin-aidant-mime-masculin-tout-jouant-scene_23-2147891702.jpg" alt="Théâtre">
+                <h3>Théâtre</h3>
+                <p>Développez votre éloquence et votre aisance sur scène.</p>
+            </div>
+            <div class="formation">
+                <img src="https://img.freepik.com/photos-gratuite/pere-fils-faisant-robot_23-2148863404.jpg" alt="Robotique">
+                <h3>Robotique</h3>
+                <p>Initiez-vous aux bases de la robotique et de la programmation.</p>
+            </div>
+        </div>
     </section>
+    
 
     <footer>
         <p>&copy; 2025 MY2I - Tous droits réservés.</p>
