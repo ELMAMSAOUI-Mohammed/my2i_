@@ -3,21 +3,23 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #e0b2ba;
-    color: #333;
+    color: #222;
+    background: linear-gradient(to right, #DEFCF9, #CADEFC, #C3BEF0, #CCA8E9);
+    background-attachment: fixed;
 }
+
 
 /* ----------- HEADER ----------- */
 header {
-    text-align: center;
-    padding: 20px;
-    background: linear-gradient(135deg, #900C3F, #ff6b6b);
-    color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    color:#492540;
+    border-bottom: 2px solid transparent;
 }
-
 /* ----------- CONTENEUR PRINCIPAL ----------- */
 .professor-container {
     display: flex;
