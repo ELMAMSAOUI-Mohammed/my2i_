@@ -1,5 +1,7 @@
 /* Importer une belle police */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import "tailwindcss";
+
 
 * {
     margin: 0;
@@ -11,7 +13,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     color: #222;
-    background: linear-gradient(to right, #DEFCF9, #CADEFC, #C3BEF0, #CCA8E9);
+    background: linear-gradient(to right, #DEFCF9, #CADEFC, #C3BEF0);
     background-attachment: fixed;
 }
 
@@ -21,7 +23,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px 50px;
-    background: rgba(255, 255, 255, 0.3);
+    background: transparent;
     backdrop-filter: blur(10px);
     color:#492540;
     border-bottom: 2px solid transparent;
@@ -48,10 +50,11 @@ h1 {
 
 /* ----------- NAVIGATION ----------- */
 nav {
-    background: rgba(255, 255, 255, 0.3);
+    background: transparent;
     backdrop-filter: blur(10px);
     padding: 15px 0;
     text-align: center;
+
 }
 
 nav ul {
@@ -69,8 +72,10 @@ nav ul li a {
     padding: 10px 20px;
     border-radius: 30px;
     transition: all 0.3s ease;
-    background: rgba(255, 255, 255, 0.3);
+    background: #ffff;
     color: #492540;
+    box-shadow: 0 4px 15px #492540 ;
+
 }
 
 nav ul li a:hover {
@@ -88,18 +93,33 @@ nav ul li a:hover {
     width: 90%;
     max-width: 1200px;
     margin: 50px auto;
+
 }
 
 /* ----------- BOÎTES EN GLASSMORPHISM ----------- */
-#content .leftbox, #content .rightbox {
+#content .leftbox{
     width: 48%;
     min-height: 250px;
     padding: 30px;
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.2);
+    background:#ffff;
     backdrop-filter: blur(15px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 15px #492540 ;
+    color:#492540;
+}
+#content .rightbox{
+    width: 48%;
+    min-height: 250px;
+    padding: 30px;
+    border-radius: 15px;
+    background:#ffff;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 15px #492540;
+
 }
 
 #content .leftbox:hover, #content .rightbox:hover {
@@ -107,11 +127,11 @@ nav ul li a:hover {
 }
 
 .leftbox {
-    color: black;
+    color: #492540;
 }
 
 .rightbox {
-    color: white;
+    color:#492540;
 }
 
 /* ----------- SECTIONS ARTICLES ----------- */
@@ -127,10 +147,10 @@ nav ul li a:hover {
     align-items: center;
     margin-bottom: 30px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.2);
+    background: #ffff;
     backdrop-filter: blur(10px);
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px #492540;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -246,8 +266,8 @@ body div iframe {
     font-size: 16px;
     border: 2px solid #0000; /* Bordure noir */
     border-radius: 8px; /* Coins arrondis */
-    background-color: #CCA8E9; /* Fond clair */
-    color: #333; /* Couleur du texte */
+    background-color: #492540; /* Fond clair */
+    color: #ffff; /* Couleur du texte */
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     margin-left: 20px;
