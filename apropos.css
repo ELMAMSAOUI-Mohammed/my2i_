@@ -1,52 +1,84 @@
-/* Importer une belle police */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
-
+/* Styles généraux */
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #e0b2ba;
-    color: #333;
+    color: #222;
+    background: linear-gradient(to right, #DEFCF9, #CADEFC, #C3BEF0, #CCA8E9);
+    background-attachment: fixed;
 }
-
-/* ----------- HEADER ----------- */
 header {
-    text-align: center;
-    padding: 20px;
-    background: linear-gradient(135deg, #900C3F, #ff6b6b);
-    color: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* ----------- CONTENU PRINCIPAL ----------- */
-.about-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 20px;
-    background: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: transparent ;
+    backdrop-filter: blur(10px);
+    color:#492540;
+    border-bottom: 2px solid transparent;
+}
+header img:hover {
+    transform: scale(1.1);
 }
 
-.about-text {
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    text-shadow: 2px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h4 {
     text-align: center;
-    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
 }
 
 h2 {
-    color: #900C3F;
+    color: #492540;
+    margin-top: 20px;
 }
 
-/* ----------- CARROUSEL D'IMAGES ----------- */
-.carousel-container {
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Conteneur principal */
+.about-container {
     width: 80%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #;
+    border-radius: 8px;
+    background: #ffff;
+    background-attachment: fixed;
+    box-shadow: 0 4px 15px #492540;
+    padding-bottom: 30px;
+
+}
+
+/* Listes */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: url('check.png') no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+/* Carrousel */
+.carousel-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
     overflow: hidden;
     position: relative;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .carousel {
@@ -56,14 +88,27 @@ h2 {
 
 .carousel img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
-/* ----------- FOOTER ----------- */
+/* Pied de page */
 footer {
     text-align: center;
-    padding: 15px;
-    background: #900C3F;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
     color: white;
     margin-top: 40px;
+    font-size: 14px;
+    border-top: 2px solid #c03546 ;
+    border-radius: 15px;
 }
+
+footer .social-media a img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+footer .social-media a img:hover {
+    transform: scale(1.2);}
