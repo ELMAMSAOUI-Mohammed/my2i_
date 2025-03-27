@@ -107,6 +107,15 @@ nav ul li a:hover {
     transition: transform 0.3s ease-in-out;
     box-shadow: 0 4px 15px #492540 ;
     color:#492540;
+    text-align: justify;
+}
+#content .leftbox p {
+    text-indent: 30px; /* Ajustez la valeur selon vos préférences */
+    margin-bottom: 15px; /* Ajoute un espace entre chaque paragraphe */
+}
+#text2 {
+    margin-top: 20px;
+
 }
 #content .rightbox{
     width: 48%;
